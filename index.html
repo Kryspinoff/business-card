@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Business card</title>
+    <style>
+        body{
+            background: url("https://uwalls.pl/gallery/200/25980_thumb_b1000.jpg") no-repeat center center fixed;
+            background-size: cover;
+        }
+        .container{
+            margin: 60px auto;
+            background-color: black;
+            width: 400px;
+            height: 160px;
+            padding: 30px;
+            color: silver;
+        }
+        .business-card img{
+            float: left;
+        }
+        .username, .email, .download-cv{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+        .username span {
+            border-bottom: 2px solid red;
+            padding-bottom: 4px;
+        }
+        .email{
+            font-size: 15px;
+        }
+        .download-cv a{
+            color: red;
+            font-size: 14px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="business-card">
+            <img src="https://randomuser.me/api/portraits/women/58.jpg" alt="zdjęcie profilowe">
+            <p class="username">
+                <span>Karolina Bolet</span>
+            </p>
+            <p class="email">
+                <span>karolinabolet@gmail.com</span>
+            </p>
+            <p class="download-cv">
+                <span>
+                    <a href="#">Download CV</a>
+                </span>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
